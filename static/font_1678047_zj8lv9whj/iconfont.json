@@ -1,0 +1,30 @@
+{
+  "id": "1678047",
+  "name": "wangyi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13224477",
+      "name": "19",
+      "font_class": "icon-test",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "13224488",
+      "name": "14",
+      "font_class": "icon-test1",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "13224494",
+      "name": "17",
+      "font_class": "icon-test2",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    }
+  ]
+}
