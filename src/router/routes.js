@@ -3,6 +3,7 @@ import Classification from '../pages/Classification/Classification.vue'
 import Buy from '../pages/Buy/Buy.vue'
 import Person from '../pages/Person/Person.vue'
 import Shopping from '../pages/Shopping/Shopping.vue'
+import Tuijian from '../pages/Classification/Tuijian/Tuijian.vue'
 
 export default [
   {
@@ -11,7 +12,18 @@ export default [
   },
   {
     path:'/classification',
-    component: Classification
+    component: Classification,
+    children: [
+      {
+        path:'tuijian',
+        component: Tuijian
+      },
+      {
+        path:'/classification',
+        redirect: '/classification/tuijian'
+      }
+    ]
+    
   },
   {
     path:'/buy',
@@ -25,8 +37,10 @@ export default [
     path:'/shopping',
     component: Shopping
   },
+  
   {
     path:'/homepage',
     redirect:Homepage
   }
+
   ]
